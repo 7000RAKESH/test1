@@ -662,3 +662,28 @@
 //   }
 // }
 // currencyConverter(1, "gbp");
+
+// 41
+// let library = [
+//   { name: "johngrisham", stock: 10 },
+//   { name: "maths", stock: 0 },
+//   { name: "science", stock: 10 },
+//   { name: "physics", stock: 10 },
+//   { name: "english", stock: 10 },
+// ];
+
+// function bookStock(bookName) {
+//   bookName = bookName.toLowerCase();
+//   for (let i = 0; i < library.length; i++) {
+//     if (bookName == library[i].name) {
+//       if (library[i].stock > 0) {
+//         console.log("you reserved a book");
+//       } else {
+//         console.log("out of stock");
+//       }
+//     }
+//   }
+// }
+// bookStock("johnGrisham");
+
+// 42
