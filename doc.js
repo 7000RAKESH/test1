@@ -649,13 +649,13 @@
 // function currencyConverter(money, country) {
 //   country = country.toLowerCase();
 //   if (country == "usd") {
-//     usd = money * 81;
+//     usd = money / 81;
 //     console.log(`${money}₹ indian currency to usd ${usd}$`);
 //   } else if (country == "eur") {
-//     eur = money * 91;
+//     eur = money / 91;
 //     console.log(`${money}₹  indian currency to EUR ${eur} Euros`);
 //   } else if (country == "gbp") {
-//     gbp = money * 108;
+//     gbp = money / 108;
 //     console.log(`${money}₹ indian currency to GBP ${gbp} Pounds`);
 //   } else {
 //     console.log("invalid");
